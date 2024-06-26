@@ -46,6 +46,6 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 
-PS E:\Work\WebApp\MandiERP-WebApp> cd src/features/village
-PS E:\Work\WebApp\MandiERP-WebApp\src\features\village> json-server --watch data.json --port 3030
+PS E:\Work\WebApp\MandiERP-WebApp> cd src/DummyDataServer
+PS MandiERP-WebApp\DummyDataServer> json-server --watch data.json --port 3030
 \MandiERP-WebApp> npm start
