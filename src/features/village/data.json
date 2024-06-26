@@ -1,0 +1,944 @@
+{
+  "villages": [
+    {
+      "villageName": "Badnawar",
+      "villageNameHindi": "Badnawar",
+      "id": 1
+    },
+    {
+      "villageName": "Bagedi",
+      "villageNameHindi": "Bagedi",
+      "id": 2
+    },
+    {
+      "villageName": "Bakhatgharh",
+      "villageNameHindi": "Bakhatgharh",
+      "id": 3
+    },
+    {
+      "villageName": "Aajanda",
+      "villageNameHindi": "Aajanda",
+      "id": 4
+    },
+    {
+      "villageName": "Ajana Khedi",
+      "villageNameHindi": "Ajana ",
+      "id": 5
+    },
+    {
+      "villageName": "Amlawadbika",
+      "villageNameHindi": "Amlawadbika",
+      "id": 7
+    },
+    {
+      "villageName": "Aswada",
+      "villageNameHindi": "Aswada",
+      "id": 8
+    },
+    {
+      "villageName": "Indore",
+      "id": 10,
+      "villageNameHindi": "Indore"
+    },
+    {
+      "villageName": "Dewas",
+      "id": 11,
+      "villageNameHindi": "Dewas"
+    },
+    {
+      "villageName": "Jaipur",
+      "id": 14
+    },
+    {
+      "villageName": "Rajesthan",
+      "id": 15
+    }
+  ],
+  "items": [
+    {
+      "id": 1,
+      "itemName": "PYAJ",
+      "itemNameHindi": "PYAJ",
+      "rateOfUnitinKgs": 1,
+      "percentComission": 3
+    },
+    {
+      "id": 2,
+      "itemName": "DHANIYA",
+      "itemNameHindi": "DHANIYA",
+      "rateOfUnitinKgs": 1,
+      "percentComission": 3
+    },
+    {
+      "id": 3,
+      "itemName": "BHUTTA",
+      "itemNameHindi": "BHUTTA",
+      "rateOfUnitinKgs": 1,
+      "percentComission": "3"
+    },
+    {
+      "itemName": "GREEN PYAJ",
+      "itemNameHindi": "GREEN PYAJ",
+      "rateOfUnitinKgs": "1",
+      "percentComission": "4.00",
+      "id": 4
+    },
+    {
+      "itemName": "RATALU",
+      "itemNameHindi": "RATALU",
+      "rateOfUnitinKgs": "1",
+      "percentComission": "4.00",
+      "id": 5
+    },
+    {
+      "itemName": "Green Pyaj",
+      "rateOfUnitinKgs": "1",
+      "percentComission": "4",
+      "id": 6
+    },
+    {
+      "itemName": "Lassan",
+      "itemNameHindi": "Lassan",
+      "rateOfUnitinKgs": "1",
+      "percentComission": "3.00",
+      "id": 7
+    }
+  ],
+  "units": [
+    {
+      "id": 1,
+      "itemUnit1": "Panni",
+      "itemUnit(Hindi)": "Panni",
+      "weightCuttingPerUnit": "0.00",
+      "hammaliPerUnit": "3.00",
+      "tulaiPerUnit": "2.00",
+      "khadiKariPerUnit": "0.00"
+    },
+    {
+      "id": 2,
+      "itemUnit1": "Katta",
+      "itemUnit(Hindi)": "katta",
+      "weightCuttingPerUnit": "1.00",
+      "hammaliPerUnit": "3.00",
+      "tulaiPerUnit": "2.00",
+      "khadiKariPerUnit": "0.00"
+    },
+    {
+      "itemUnit1": "Kerat",
+      "itemUnit(Hindi)": "kerat",
+      "id": 3,
+      "weightCuttingPerUnit": "0.00",
+      "hammaliPerUnit": "3.00",
+      "khadiKariPerUnit": "0.00",
+      "tulaiPerUnit": "2.00"
+    },
+    {
+      "itemUnit1": "Palle",
+      "itemUnit(Hindi)": "Palle",
+      "id": 4,
+      "weightCuttingPerUnit": "0.00",
+      "hammaliPerUnit": "3.00",
+      "khadiKariPerUnit": "0.00",
+      "tulaiPerUnit": "2.00"
+    },
+    {
+      "itemUnit1": "Bori",
+      "itemUnit(Hindi)": "Bori",
+      "id": 6,
+      "weightCuttingPerUnit": "0.00",
+      "hammaliPerUnit": "3.00",
+      "khadiKariPerUnit": "0.00",
+      "tulaiPerUnit": "2.00"
+    },
+    {
+      "itemUnit1": "0katta",
+      "itemUnit(Hindi)": "0katta",
+      "id": 7,
+      "weightCuttingPerUnit": 0,
+      "hammaliPerUnit": "3.00",
+      "tulaiPerUnit": "2.00",
+      "khadiKariPerUnit": 0
+    },
+    {
+      "itemUnit1": "2Katta",
+      "itemUnit(Hindi)": "2Katta",
+      "id": 8,
+      "weightCuttingPerUnit": "2.00",
+      "hammaliPerUnit": "3.00",
+      "tulaiPerUnit": "2.00",
+      "khadiKariPerUnit": 0
+    }
+  ],
+  "accounts": [
+    {
+      "accountId": 1,
+      "accountNo": 1,
+      "accountFirmName": "Capital A/c",
+      "accountFirmName(Hindi)": "Capital A/C",
+      "accountSortName": "Capital A/C",
+      "accountHolderDetail": "Capital A/C",
+      "fkAccountTypeId": 1,
+      "fkVillageId": 1,
+      "emailId": "abc@gmail.com",
+      "accountMobileNo": "1234567899",
+      "accountCity": "Badnawar",
+      "accountType": "Capital A/C",
+      "accountAddress1": "12345",
+      "accountName": "Capital A/c",
+      "accountNameHindi": "Capital A/c",
+      "id": 1
+    },
+    {
+      "accountId": 6,
+      "accountNo": 1,
+      "accountFirmName": "Farmers",
+      "accountFirmName(Hindi)": "Farmers",
+      "accountSortName": "Farmers",
+      "accountHolderDetail": "Farmer",
+      "fkAccountTypeId": 7,
+      "fkVillageId": 1,
+      "emailId": "abc@gmail.com",
+      "accountMobileNo": "1234567899",
+      "accountCity": "Badnawar",
+      "accountType": "Farmers",
+      "accountAddress1": "12345",
+      "accountName": "Farmers",
+      "accountNameHindi": "Farmers",
+      "id": 6,
+      "accountAddress2": "",
+      "licenceNo": ""
+    },
+    {
+      "accountId": 8,
+      "accountNo": 1,
+      "accountFirmName": "Purchaser(Client)",
+      "accountFirmName(Hindi)": "Purchaser(Client)",
+      "accountSortName": "Purchaser(Client)",
+      "accountHolderDetail": "Purchaser(Client)",
+      "fkAccountTypeId": 24,
+      "fkVillageId": 1,
+      "emailId": "abc@gmail.com",
+      "accountMobileNo": "1234567899",
+      "accountCity": "Badnawar",
+      "accountType": "Purchaser(Client)",
+      "accountAddress1": "12345",
+      "accountName": "Purchaser(Client)",
+      "accountNameHindi": "Purchaser(Client)",
+      "id": 8
+    },
+    {
+      "accountId": 9,
+      "accountNo": 1,
+      "accountFirmName": "Harish Ji",
+      "accountFirmName(Hindi)": "Harish Ji",
+      "accountSortName": "Harish Ji",
+      "accountHolderDetail": "Harish Ji",
+      "fkAccountTypeId": 7,
+      "fkVillageId": 1,
+      "emailId": "abc@gmail.com",
+      "accountMobileNo": "1234567899",
+      "accountCity": "Badnawar",
+      "accountType": "Farmers",
+      "accountAddress1": "12345",
+      "accountName": "Harish Ji",
+      "accountNameHindi": "Harish Ji",
+      "id": 9
+    },
+    {
+      "accountId": 10,
+      "accountNo": 1,
+      "accountFirmName": "18 PTC",
+      "accountFirmName(Hindi)": "18 PTC",
+      "accountSortName": "18 PTC",
+      "accountHolderDetail": "18 PTC",
+      "fkAccountTypeId": 24,
+      "fkVillageId": 1,
+      "emailId": "abc@gmail.com",
+      "accountMobileNo": "1234567899",
+      "accountCity": "Badnawar",
+      "accountType": "Purchaser(Client)",
+      "accountAddress1": "12345",
+      "accountName": "18 PTC",
+      "accountNameHindi": "18 PTC",
+      "id": 10
+    },
+    {
+      "accountId": 11,
+      "accountNo": 1,
+      "accountFirmName": "Maksud Ji",
+      "accountFirmName(Hindi)": "Maksud Ji",
+      "accountSortName": "Maksud Ji",
+      "accountHolderDetail": "Maksud Ji",
+      "fkAccountTypeId": 7,
+      "fkVillageId": 1,
+      "emailId": "abc@gmail.com",
+      "accountMobileNo": "1111111111",
+      "accountCity": "Badnawar",
+      "accountType": "Farmers",
+      "accountAddress1": "12345",
+      "accountName": "Maksud Ji",
+      "accountNameHindi": "Maksud Ji",
+      "id": 11
+    },
+    {
+      "accountId": 12,
+      "accountNo": 1,
+      "accountCity": "Bagedi",
+      "accountName": "Dilip Ji",
+      "accountNameHindi": "Dilip Ji",
+      "accountType": "Farmers",
+      "fkAccountTypeId": 7,
+      "fkVillageId": 2,
+      "accountFirmName": "Dilip Ji",
+      "accountFirmName(Hindi)": "",
+      "accountSortName": "",
+      "emailId": "abc@gmail.com",
+      "accountMobileNo": "999999999",
+      "accountAddress1": "bagedi",
+      "accountAddress2": "",
+      "licenceNo": "",
+      "id": 12
+    },
+    {
+      "accountName": "Sundar Ji",
+      "accountMobileNo": "",
+      "accountCity": "Bagedi",
+      "fkVillageId": 2,
+      "fkAccountTypeId": 7,
+      "accountFirmName": "Sundar Ji",
+      "id": 13
+    },
+    {
+      "accountName": "xyz",
+      "accountMobileNo": "",
+      "accountCity": "Bakhatgharh",
+      "fkVillageId": 3,
+      "fkAccountTypeId": 7,
+      "accountFirmName": "xyz",
+      "id": 14
+    },
+    {
+      "accountName": "abcd",
+      "accountMobileNo": "",
+      "accountCity": "Dewas",
+      "fkVillageId": 11,
+      "fkAccountTypeId": 7,
+      "accountFirmName": "abcd",
+      "id": 15
+    },
+    {
+      "accountName": "16 AVC",
+      "accountCity": "Badnawar",
+      "fkVillageId": 1,
+      "fkAccountTypeId": 24,
+      "accountFirmName": "16 AVC",
+      "accountSortName": "16 AVC",
+      "id": 16
+    }
+  ],
+  "accountBankDetails": [
+    {
+      "id": 1,
+      "accountBankDetailNo": 0,
+      "fkAccountId": 11,
+      "bankAccountNo": 12345,
+      "branchName": "Maksud Patel",
+      "ifscCode": "IDFC00",
+      "accountHolderName": "Maksud Bhai"
+    },
+    {
+      "id": 2,
+      "accountBankDetailNo": 0,
+      "fkAccountId": 9,
+      "bankAccountNo": 6789,
+      "branchName": "Harish Patel",
+      "ifscCode": "IDFC00",
+      "accountHolderName": "Maksud Bhai"
+    },
+    {
+      "branchName": "farmers",
+      "ifscCode": "pnb123",
+      "bankAccountNo": "3333",
+      "fkAccountId": 6,
+      "id": 3
+    }
+  ],
+  "accountTypes": [
+    {
+      "accountTypeId": 1,
+      "accountTypeNo": null,
+      "accountCode": "L1001",
+      "accountTypeName": "Capital A/c",
+      "accountType1": "L1001",
+      "accountTypeDetail": "",
+      "comment": null,
+      "subHeadDetail": "0",
+      "isBalanceKhata": null,
+      "isShowonPage": null,
+      "id": 1
+    },
+    {
+      "accountTypeId": 7,
+      "accountTypeNo": null,
+      "accountCode": "L1007",
+      "accountTypeName": "Farmers",
+      "accountType1": "L1007",
+      "accountTypeDetail": "",
+      "comment": null,
+      "subHeadDetail": "1",
+      "isBalanceKhata": null,
+      "isShowonPage": null,
+      "id": 7
+    },
+    {
+      "accountTypeId": 20,
+      "accountTypeNo": null,
+      "accountCode": "T1003",
+      "accountTypeName": "Gadi - Transport",
+      "accountType1": "T1003",
+      "accountTypeDetail": "",
+      "comment": null,
+      "subHeadDetail": "0",
+      "isBalanceKhata": null,
+      "isShowonPage": null,
+      "id": 20
+    },
+    {
+      "accountTypeId": 24,
+      "accountTypeNo": null,
+      "accountCode": "A1009",
+      "accountTypeName": "Client",
+      "accountType1": "A1009",
+      "accountTypeDetail": null,
+      "comment": null,
+      "subHeadDetail": "1",
+      "isBalanceKhata": null,
+      "isShowonPage": null,
+      "id": 24
+    }
+  ],
+  "bills": [
+    {
+      "billNo": 1,
+      "billId": 1,
+      "billDate": "04-12-2023",
+      "isCompanyAccount": 0,
+      "gadiNo": "MP091234",
+      "isBhadaPaid": "No",
+      "gadiBhada": 0,
+      "billType": "Avg",
+      "villageName": "Badnawar",
+      "billRsvrPersonName": "Harish Ji",
+      "billRsvrPhoneNo": "1234567899",
+      "fkAccount": "Harish Patel - 6789",
+      "fkAccountId": 9,
+      "isBillPrint": "Print On Page",
+      "billPaidStatus": "Cash",
+      "totalQuantity": 39,
+      "totalHammali": 117,
+      "totalTulai": 78,
+      "totalStationary": 2,
+      "totalDeduction": 197,
+      "totalAmount": 6255,
+      "netAmount": 6058,
+      "billDetails": [
+        {
+          "itemName": "PYAJ",
+          "quantity": 39,
+          "itemUnit": "0katta",
+          "totalWeightCutting": 0,
+          "fkBillId": 1,
+          "id": 1,
+          "actualRate": 3,
+          "billRate": 3,
+          "totalHammali": 117,
+          "totalTulai": 78,
+          "billGrossWeight": 2085,
+          "billNetWeight": 2085,
+          "commissionAmount": 188,
+          "actualTotalAmount": 6255,
+          "billTotalAmount": 6443,
+          "itemSaleDetails": [
+            {
+              "fkAccount": "18 PTC",
+              "quantity": 39,
+              "rate": 3,
+              "saleTypeFixOrWeightBased": "W",
+              "grossWeight": 2085,
+              "netWeight": 2085,
+              "isCommission": "Yes",
+              "remark": "",
+              "commissionPercent": 3,
+              "fkBillDetailId": 1,
+              "totalAmount": 6255,
+              "commissionAmount": 188,
+              "netAmount": 6443,
+              "id": 1
+            }
+          ]
+        }
+      ],
+      "id": 1
+    },
+    {
+      "billNo": 2,
+      "billId": 2,
+      "billDate": "04-12-2023",
+      "isCompanyAccount": 0,
+      "gadiNo": "",
+      "isBhadaPaid": "No",
+      "gadiBhada": 0,
+      "billType": "Avg",
+      "villageName": "Badnawar",
+      "billRsvrPersonName": "Maksud Ji",
+      "billRsvrPhoneNo": "1111111111",
+      "fkAccount": "Maksud Patel - 12345",
+      "fkAccountId": 11,
+      "isBillPrint": "Print On Page",
+      "billPaidStatus": "Cash",
+      "totalQuantity": 4,
+      "totalHammali": 12,
+      "totalTulai": 8,
+      "totalStationary": 2,
+      "totalDeduction": 22,
+      "totalAmount": 4374,
+      "netAmount": 4352,
+      "billDetails": [
+        {
+          "itemName": "PYAJ",
+          "quantity": 1,
+          "itemUnit": "0katta",
+          "totalWeightCutting": 0,
+          "fkBillId": 2,
+          "id": 2,
+          "actualRate": 55.05,
+          "billRate": 55.05,
+          "totalHammali": 3,
+          "totalTulai": 2,
+          "billGrossWeight": 47,
+          "billNetWeight": 47.5,
+          "commissionAmount": 78,
+          "actualTotalAmount": 2615,
+          "billTotalAmount": 2693,
+          "itemSaleDetails": [
+            {
+              "fkAccount": "Purchaser(Client)",
+              "quantity": 1,
+              "rate": 55.05,
+              "saleTypeFixOrWeightBased": "W",
+              "grossWeight": 47,
+              "netWeight": 47.5,
+              "isCommission": "Yes",
+              "remark": "",
+              "commissionPercent": 3,
+              "fkBillDetailId": 2,
+              "totalAmount": 2615,
+              "commissionAmount": 78,
+              "netAmount": 2693,
+              "id": 2
+            }
+          ]
+        },
+        {
+          "itemName": "PYAJ",
+          "quantity": 2,
+          "itemUnit": "0katta",
+          "totalWeightCutting": 0,
+          "fkBillId": 2,
+          "id": 3,
+          "actualRate": 29.51,
+          "billRate": 29.51,
+          "totalHammali": 6,
+          "totalTulai": 4,
+          "billGrossWeight": 51,
+          "billNetWeight": 51,
+          "commissionAmount": 45,
+          "actualTotalAmount": 1505,
+          "billTotalAmount": 1550,
+          "itemSaleDetails": [
+            {
+              "fkAccount": "Purchaser(Client)",
+              "quantity": 2,
+              "rate": 29.51,
+              "saleTypeFixOrWeightBased": "W",
+              "grossWeight": 51,
+              "netWeight": 51,
+              "isCommission": "Yes",
+              "remark": "",
+              "commissionPercent": 3,
+              "fkBillDetailId": 3,
+              "totalAmount": 1505,
+              "commissionAmount": 45,
+              "netAmount": 1550,
+              "id": 3
+            }
+          ]
+        },
+        {
+          "itemName": "PYAJ",
+          "quantity": 1,
+          "itemUnit": "0katta",
+          "totalWeightCutting": 0,
+          "fkBillId": 2,
+          "id": 4,
+          "actualRate": 11.05,
+          "billRate": 11.05,
+          "totalHammali": 3,
+          "totalTulai": 2,
+          "billGrossWeight": 23,
+          "billNetWeight": 23,
+          "commissionAmount": 8,
+          "actualTotalAmount": 254,
+          "billTotalAmount": 262,
+          "itemSaleDetails": [
+            {
+              "fkAccount": "Purchaser(Client)",
+              "quantity": 1,
+              "rate": 11.05,
+              "saleTypeFixOrWeightBased": "W",
+              "grossWeight": 23,
+              "netWeight": 23,
+              "isCommission": "Yes",
+              "remark": "",
+              "commissionPercent": 3,
+              "fkBillDetailId": 4,
+              "totalAmount": 254,
+              "commissionAmount": 8,
+              "netAmount": 262,
+              "id": 4
+            }
+          ]
+        }
+      ],
+      "id": 2
+    },
+    {
+      "billNo": 3,
+      "billId": 3,
+      "billDate": "12-10-2023",
+      "fkAccountId": 16,
+      "isCompanyAccount": 1,
+      "villageName": "Ajana Khedi",
+      "totalQuantity": 2,
+      "totalHammali": 6,
+      "totalTulai": 4,
+      "totalStationary": 0,
+      "totalDeduction": 0,
+      "totalAmount": 12,
+      "netAmount": 12,
+      "billDetails": [
+        {
+          "itemName": "BHUTTA",
+          "quantity": 2,
+          "itemUnit": "2Katta",
+          "H+T": "Yes",
+          "totalWeightCutting": "2.00",
+          "fkBillId": 3,
+          "id": 5,
+          "itemSaleDetails": [
+            {
+              "fkAccount": "16 AVC",
+              "quantity": 2,
+              "rate": 2,
+              "saleTypeFixOrWeightBased": "W",
+              "grossWeight": 10,
+              "netWeight": 6,
+              "isCommission": "Yes",
+              "remark": "",
+              "commissionPercent": 3,
+              "fkBillDetailId": 5,
+              "totalAmount": 12,
+              "commissionAmount": 0,
+              "netAmount": 12,
+              "id": 5
+            }
+          ]
+        }
+      ],
+      "id": 3
+    }
+  ],
+  "billDetails": [
+    {
+      "itemName": "PYAJ",
+      "quantity": 39,
+      "itemUnit": "0katta",
+      "totalWeightCutting": 0,
+      "fkBillId": 1,
+      "id": 1,
+      "actualRate": 3,
+      "billRate": 3,
+      "totalHammali": 117,
+      "totalTulai": 78,
+      "billGrossWeight": 2085,
+      "billNetWeight": 2085,
+      "commissionAmount": 188,
+      "actualTotalAmount": 6255,
+      "billTotalAmount": 6443,
+      "itemSaleDetails": [
+        {
+          "fkAccount": "18 PTC",
+          "quantity": 39,
+          "rate": 3,
+          "saleTypeFixOrWeightBased": "W",
+          "grossWeight": 2085,
+          "netWeight": 2085,
+          "isCommission": "Yes",
+          "remark": "",
+          "commissionPercent": 3,
+          "fkBillDetailId": 1,
+          "totalAmount": 6255,
+          "commissionAmount": 188,
+          "netAmount": 6443,
+          "id": 1
+        }
+      ]
+    },
+    {
+      "itemName": "PYAJ",
+      "quantity": 1,
+      "itemUnit": "0katta",
+      "totalWeightCutting": 0,
+      "fkBillId": 2,
+      "id": 2,
+      "actualRate": 55.05,
+      "billRate": 55.05,
+      "totalHammali": 3,
+      "totalTulai": 2,
+      "billGrossWeight": 47,
+      "billNetWeight": 47.5,
+      "commissionAmount": 78,
+      "actualTotalAmount": 2615,
+      "billTotalAmount": 2693,
+      "itemSaleDetails": [
+        {
+          "fkAccount": "Purchaser(Client)",
+          "quantity": 1,
+          "rate": 55.05,
+          "saleTypeFixOrWeightBased": "W",
+          "grossWeight": 47,
+          "netWeight": 47.5,
+          "isCommission": "Yes",
+          "remark": "",
+          "commissionPercent": 3,
+          "fkBillDetailId": 2,
+          "totalAmount": 2615,
+          "commissionAmount": 78,
+          "netAmount": 2693,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "itemName": "PYAJ",
+      "quantity": 2,
+      "itemUnit": "0katta",
+      "totalWeightCutting": 0,
+      "fkBillId": 2,
+      "id": 3,
+      "actualRate": 29.51,
+      "billRate": 29.51,
+      "totalHammali": 6,
+      "totalTulai": 4,
+      "billGrossWeight": 51,
+      "billNetWeight": 51,
+      "commissionAmount": 45,
+      "actualTotalAmount": 1505,
+      "billTotalAmount": 1550,
+      "itemSaleDetails": [
+        {
+          "fkAccount": "Purchaser(Client)",
+          "quantity": 2,
+          "rate": 29.51,
+          "saleTypeFixOrWeightBased": "W",
+          "grossWeight": 51,
+          "netWeight": 51,
+          "isCommission": "Yes",
+          "remark": "",
+          "commissionPercent": 3,
+          "fkBillDetailId": 3,
+          "totalAmount": 1505,
+          "commissionAmount": 45,
+          "netAmount": 1550,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "itemName": "PYAJ",
+      "quantity": 1,
+      "itemUnit": "0katta",
+      "totalWeightCutting": 0,
+      "fkBillId": 2,
+      "id": 4,
+      "actualRate": 11.05,
+      "billRate": 11.05,
+      "totalHammali": 3,
+      "totalTulai": 2,
+      "billGrossWeight": 23,
+      "billNetWeight": 23,
+      "commissionAmount": 8,
+      "actualTotalAmount": 254,
+      "billTotalAmount": 262,
+      "itemSaleDetails": [
+        {
+          "fkAccount": "Purchaser(Client)",
+          "quantity": 1,
+          "rate": 11.05,
+          "saleTypeFixOrWeightBased": "W",
+          "grossWeight": 23,
+          "netWeight": 23,
+          "isCommission": "Yes",
+          "remark": "",
+          "commissionPercent": 3,
+          "fkBillDetailId": 4,
+          "totalAmount": 254,
+          "commissionAmount": 8,
+          "netAmount": 262,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "itemName": "BHUTTA",
+      "quantity": 2,
+      "itemUnit": "2Katta",
+      "H+T": "Yes",
+      "totalWeightCutting": "2.00",
+      "fkBillId": 3,
+      "id": 5,
+      "itemSaleDetails": [
+        {
+          "fkAccount": "16 AVC",
+          "quantity": 2,
+          "rate": 2,
+          "saleTypeFixOrWeightBased": "W",
+          "grossWeight": 10,
+          "netWeight": 6,
+          "isCommission": "Yes",
+          "remark": "",
+          "commissionPercent": 3,
+          "fkBillDetailId": 5,
+          "totalAmount": 12,
+          "commissionAmount": 0,
+          "netAmount": 12,
+          "id": 5
+        }
+      ]
+    },
+    {
+      "itemName": "DHANIYA",
+      "quantity": 10,
+      "itemUnit": "Bori",
+      "totalWeightCutting": "0.00",
+      "fkBillId": 4,
+      "id": 6
+    }
+  ],
+  "itemSaleDetails": [
+    {
+      "fkAccount": "18 PTC",
+      "quantity": 39,
+      "rate": 3,
+      "saleTypeFixOrWeightBased": "W",
+      "grossWeight": 2085,
+      "netWeight": 2085,
+      "isCommission": "Yes",
+      "remark": "",
+      "commissionPercent": 3,
+      "fkBillDetailId": 1,
+      "totalAmount": 6255,
+      "commissionAmount": 188,
+      "netAmount": 6443,
+      "id": 1
+    },
+    {
+      "fkAccount": "Purchaser(Client)",
+      "quantity": 1,
+      "rate": 55.05,
+      "saleTypeFixOrWeightBased": "W",
+      "grossWeight": 47,
+      "netWeight": 47.5,
+      "isCommission": "Yes",
+      "remark": "",
+      "commissionPercent": 3,
+      "fkBillDetailId": 2,
+      "totalAmount": 2615,
+      "commissionAmount": 78,
+      "netAmount": 2693,
+      "id": 2
+    },
+    {
+      "fkAccount": "Purchaser(Client)",
+      "quantity": 2,
+      "rate": 29.51,
+      "saleTypeFixOrWeightBased": "W",
+      "grossWeight": 51,
+      "netWeight": 51,
+      "isCommission": "Yes",
+      "remark": "",
+      "commissionPercent": 3,
+      "fkBillDetailId": 3,
+      "totalAmount": 1505,
+      "commissionAmount": 45,
+      "netAmount": 1550,
+      "id": 3
+    },
+    {
+      "fkAccount": "Purchaser(Client)",
+      "quantity": 1,
+      "rate": 11.05,
+      "saleTypeFixOrWeightBased": "W",
+      "grossWeight": 23,
+      "netWeight": 23,
+      "isCommission": "Yes",
+      "remark": "",
+      "commissionPercent": 3,
+      "fkBillDetailId": 4,
+      "totalAmount": 254,
+      "commissionAmount": 8,
+      "netAmount": 262,
+      "id": 4
+    },
+    {
+      "fkAccount": "16 AVC",
+      "quantity": 2,
+      "rate": 2,
+      "saleTypeFixOrWeightBased": "W",
+      "grossWeight": 10,
+      "netWeight": 6,
+      "isCommission": "Yes",
+      "remark": "",
+      "commissionPercent": 3,
+      "fkBillDetailId": 5,
+      "totalAmount": 12,
+      "commissionAmount": 0,
+      "netAmount": 12,
+      "id": 5
+    }
+  ],
+  "gadiMasters": [
+    {
+      "id": 1,
+      "gadiMasterId": 1,
+      "gadiNo": "MP09A1200",
+      "address": "abc",
+      "city": "Badnawar",
+      "mobileNo": "9876543211"
+    },
+    {
+      "id": 2,
+      "gadiMasterId": 2,
+      "gadiNo": "MP09A2300",
+      "address": "abc",
+      "city": "Bagedi",
+      "mobileNo": "9881543211"
+    },
+    {
+      "gadiNo": "MP091234",
+      "mobileNo": "7777777777",
+      "city": "Ajana Khedi",
+      "id": 3
+    }
+  ]
+}
